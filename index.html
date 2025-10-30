@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TRiCAM Audio Solutions, LLC</title>
+  <meta name="description" content="TRiCAM Audio Solutions provides tour-ready tour management, production management, audio engineering, and show advancement for artists and events worldwide." />
+  <meta property="og:title" content="TRiCAM Audio Solutions, LLC" />
+  <meta property="og:description" content="Tour-ready tour management, production management, audio engineering, and show advancement for artists and events worldwide." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#f29b1d" />
+  <link rel="icon" href="logo.png" />
+  <style>
+    :root{
+      --brand:#f29b1d;
+      --ink:#2d2d2d;
+      --muted:#6b6f76;
+      --bg:#ffffff;
+      --chip:#f7f7f7;
+      --ring:rgba(242,155,29,.25);
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";}
+    img{max-width:100%;height:auto;}
+    a{color:var(--ink);text-decoration:none}
+    a.btn{display:inline-block;background:var(--brand);color:#111;padding:.9rem 1.2rem;border-radius:.6rem;font-weight:700;letter-spacing:.02em}
+    a.btn:hover{filter:brightness(.95)}
+    .container{max-width:var(--max);margin-inline:auto;padding:0 1.2rem}
+    .chip{display:inline-block;background:var(--chip);padding:.4rem .7rem;border-radius:999px;font-size:.9rem;color:var(--muted);}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:50}
+    .nav{display:flex;align-items:center;gap:1rem;justify-content:space-between;padding:.8rem 0}
+    .brand{display:flex;align-items:center;gap:.8rem}
+    .brand img{height:44px;width:auto}
+    .brand .wordmark{font-weight:800;letter-spacing:.02em}
+    .brand .accent{color:var(--brand)}
+    #navcheck{display:none}
+    .menu{display:flex;gap:1.2rem;align-items:center}
+    .menu a{color:#333}
+    .hamburger{display:none;cursor:pointer;padding:.6rem;border:1px solid #ddd;border-radius:.6rem}
+    .hamburger span{display:block;width:22px;height:2px;background:#333;margin:5px 0}
+    @media (max-width:840px){.menu{display:none;position:absolute;inset:64px 0 auto 0;background:#fff;border-bottom:1px solid #eee;padding:1rem}#navcheck:checked ~ .menu{display:flex;flex-direction:column;align-items:flex-start}.hamburger{display:block}}
+    .hero{padding: clamp(3rem, 6vw, 6rem) 0;background:radial-gradient(1200px 600px at 15% -10%, rgba(242,155,29,.10), transparent 60%),radial-gradient(800px 400px at 85% -20%, rgba(0,0,0,.04), transparent 50%),#fff;}
+    .hero .wrap{display:grid;grid-template-columns: 1.2fr .8fr;gap:2rem;align-items:center}
+    .hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:.2rem 0}
+    .hero p{color:var(--muted);font-size:clamp(1rem,2.4vw,1.15rem);}
+    .hero .cta{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1rem}
+    @media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.hero figure{order:-1;}}
+    section{padding: clamp(2.5rem,5vw,4rem) 0;}
+    section h2{font-size:clamp(1.6rem,3vw,2rem);margin:0 0 .6rem}
+    section p.lead{color:var(--muted);max-width:65ch}
+    .grid{display:grid;gap:1rem;grid-template-columns: repeat(3,1fr)}
+    .card{border:1px solid #eee;border-radius:1rem;padding:1.2rem;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+    .card h3{margin:.2rem 0 .4rem;font-size:1.15rem}
+    .card p{color:var(--muted);font-size:.98rem}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}}
+    footer{border-top:1px solid #eee;padding:2rem 0;color:var(--muted);font-size:.95rem}
+  .logo {
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img src="/images/topLogo.png" alt="TRiCAM Audio Solutions logo" class="logo" />
+        <!--<span class="wordmark">TRi<span class="accent">CAM</span> Audio Solutions</span>-->
+      </div>
+      <input type="checkbox" id="navcheck" aria-label="Open navigation" />
+      <label for="navcheck" class="hamburger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <nav class="menu" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn">Get In Touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container wrap">
+        <div>
+          <span class="chip">Touring • Venues • Broadcast • Festivals</span>
+          <h1>Tour management, production, and audio that just works on show day.</h1>
+          <p>TRiCAM Audio Solutions, LLC is a touring‑first company led by Cameron Triplett. We handle tour management, end‑to‑end audio, and production logistics so artists and crews can focus on the performance: advancing, staffing, stage management, RF coordination, and rock‑solid mixes.</p>
+          <div class="cta">
+            <a class="btn" href="#contact">Start a project</a>
+            <a href="#work">See recent work →</a>
+          </div>
+        </div>
+        <figure>
+          <img src="hero-placeholder.jpg" alt="Stage shot placeholder (replace with your photo)" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="services" class="container">
+      <h2>What we do</h2>
+      <p class="lead">Modular services for tours and one‑offs—book the whole stack or just what you need.</p>
+      <div class="grid" style="margin-top:1rem">
+        <article class="card">
+          <h3>Tour Management</h3>
+          <p>Routing, advancing, budgeting, travel logistics, and daily operations for smooth, stress‑free touring. Coordination between crew, artists, and vendors handled start to finish.</p>
+        </article>
+        <article class="card">
+          <h3>Production Management</h3>
+          <p>Advance, budgeting, vendor coordination, day‑of show leadership, and end‑to‑end logistics for smooth load‑ins, soundchecks, and strike.</p>
+        </article>
+        <article class="card">
+          <h3>Audio Engineering</h3>
+          <p>FOH & Monitors on DiGiCo, Avid, Allen & Heath; Dante networking; RF coordination; showfile creation; consistent mixes across venues.</p>
+        </article>
+        <article class="card">
+          <h3>Systems & Networking</h3>
+          <p>PA deployment, measurement & alignment, comms, show control, and robust network design for Dante/AVB and IT backbones.</p>
+        </article>
+        <article class="card">
+          <h3>Advancing & Settlement</h3>
+          <p>Riders, stage plots, input lists, hospitality, and clean settlements that protect the artist relationship and the bottom line.</p>
+        </article>
+        <article class="card">
+          <h3>Equipment Sourcing</h3>
+          <p>Spec, source, and prep: consoles, RF, mics, stage packages, backline, trucking—dialed, labeled, and road‑worthy.</p>
+        </article>
+        <article class="card">
+          <h3>Consulting & Training</h3>
+          <p>Crew upskilling, workflow design, template packs, and remote support for houses of worship, venues, and tours.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;justify-content:space-between">
+        <div><strong>TRiCAM Audio Solutions, LLC</strong><br/>Charlottesville, VA • USA</div>
+        <div><a href="mailto:bookings@tricam.audio">contact@tricamtech.com</a>
+      </div>
+      <div style="margin-top:1rem">© <span id="y"></span> TRiCAM Audio Solutions, LLC. All rights reserved.</div>
+    </div>
+    <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>

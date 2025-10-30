@@ -26,7 +26,7 @@
     a{color:var(--ink);text-decoration:none}
     a.btn{display:inline-block;background:var(--brand);color:#111;padding:.9rem 1.2rem;border-radius:.6rem;font-weight:700;letter-spacing:.02em}
     a.btn:hover{filter:brightness(.95)}
-    .container{max-width:var(--max);margin-inline:auto;padding:0 1.2rem}
+	  .container{max-width:var(--max);margin-inline:auto;padding:0 1.2rem;}
     .chip{display:inline-block;background:var(--chip);padding:.4rem .7rem;border-radius:999px;font-size:.9rem;color:var(--muted);}
     header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee;z-index:50}
     .nav{display:flex;align-items:center;gap:1rem;justify-content:space-between;padding:.8rem 0}
@@ -64,7 +64,6 @@
     <div class="container nav">
       <div class="brand">
         <img src="images/LogoBanner.png" alt="TRiCAM Audio Solutions logo" />
-        <!--<span class="wordmark">TRi<span class="accent">CAM</span> Audio Solutions</span>-->
       </div>
       <input type="checkbox" id="navcheck" aria-label="Open navigation" />
       <label for="navcheck" class="hamburger" aria-hidden="true"><span></span><span></span><span></span></label>
@@ -85,12 +84,12 @@
           <h1>Tour management, production, and audio that just works on show day.</h1>
           <p>TRiCAM Audio Solutions, LLC is a touring‑first company led by Cameron Triplett. We handle tour management, end‑to‑end audio, and production logistics so artists and crews can focus on the performance: advancing, staffing, stage management, RF coordination, and rock‑solid mixes.</p>
           <div class="cta">
-            <a class="btn" href="#contact">Start a project</a>
-            <a href="#work">See recent work →</a>
+            <a class="btn" href="mailto:contact@tricamtech.com">Start a project</a>
+           <!--- <a href="#work">See recent work →</a>-->
           </div>
         </div>
         <figure>
-          <img src="images/overlay-bg.jpg" alt="Stage shot " />
+          <img src="images/overlay-bg.jpg" alt="Stage shot " style="min-width:500px;" />
         </figure>
       </div>
     </section>
@@ -123,16 +122,16 @@
           <h3>Equipment Sourcing</h3>
           <p>Spec, source, and prep: consoles, RF, mics, stage packages, backline, trucking—dialed, labeled, and road‑worthy.</p>
         </article>
-        <article class="card">
+        <!--<article class="card">
           <h3>Consulting & Training</h3>
           <p>Crew upskilling, workflow design, template packs, and remote support for houses of worship, venues, and tours.</p>
-        </article>
+        </article>-->
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container">
+  <footer style="margin-top: 20px;">
+    <div class="container"></div>
       <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;justify-content:space-between">
         <div><strong>TRiCAM Audio Solutions, LLC</strong><br/>Charlottesville, VA • USA</div>
         <div><a href="mailto:contact@tricamtech.com">contact@tricamtech.com</a>
